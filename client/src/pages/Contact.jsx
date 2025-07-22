@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
 
 const Contact = () => {
     const [form, setForm] = useState({ name: '', email: '', message: '', subject: '' });
@@ -10,7 +11,7 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await fetch("http://localhost:5000/api/inquiry", {
+            const res = await fetch(`${API_BASE_URL}/api/inquiry`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(form)
