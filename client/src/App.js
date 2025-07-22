@@ -7,8 +7,7 @@ import ExportProcess from "./pages/ExportProcess";
 import Contact from "./pages/Contact";
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
-import WhatsAppButton from "./components/WhatsAppButton";
-import ScrollToTopButton from "./components/ScrollToTopButton";
+import FloatingActions from "./components/FloatingActions";
 
 function App() {
   return (
@@ -25,8 +24,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
-        <WhatsAppButton />
-        <ScrollToTopButton />
+        <FloatingActions />
       </div>
     </Router>
   );
