@@ -78,7 +78,7 @@ const Contact = () => {
             <div className="mt-12 text-center text-sm text-gray-600">
                 📍 <strong>Office:</strong> Mumbai, Maharashtra, India <br />
                 📧 <strong>Email:</strong> contact@mlttrading.com <br />
-                📞 <strong>Phone:</strong> +91-9876543210
+                📞 <strong>Phone:</strong> +91-8286243899
             </div>
         </div>
     );

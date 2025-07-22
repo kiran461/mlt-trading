@@ -31,7 +31,7 @@ const Footer = () => {
           <h4 className="font-semibold text-gray-800 mb-2">Contact</h4>
           <p className="text-sm">
             📍 Mumbai, Maharashtra<br />
-            📞 +91-XXXXXXXXXX<br />
+            📞 +91-8286243899<br />
             ✉️ info@mlttrading.com
           </p>
         </div>
